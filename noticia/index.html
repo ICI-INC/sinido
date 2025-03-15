@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    Utilizar a tag <meta http-equiv="refresh" content="500" /> 
+    <title>Relógio Digital </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <iframe height="2000" width="100%" src="https://g1.globo.com/"></iframe>
+
+	 
+	<script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            alterarPagina(30000);
+        });
+
+        function alterarPagina(timer) {
+            setTimeout(() => {
+                window.location.replace('https://ici-inc.github.io/IC/IA/dist/index.html');
+            }, timer);
+        }
+    </script>
+
+</body>
+</html>
